@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "screen-reeder"
+version = "0.1.0"
+authors = [
+    {name = "Andreas Delabie"},
+    {email = "andreas.delabie@gmail.com"}
+]
+dependencies = [
+    "gtts",
+    "playsound==1.2.2"
+]
+
+[project.scripts]
+screen-reeder = "screen_reeder.main:main"
