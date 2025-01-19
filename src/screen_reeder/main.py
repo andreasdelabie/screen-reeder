@@ -52,5 +52,3 @@ def play_selected_text():
 def main():
     __init__()
     play_selected_text()
-
-main()
