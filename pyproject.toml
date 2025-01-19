@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "screen-reeder"
-version = "0.1.1"
+version = "0.1.2"
 authors = [
     {name = "Andreas Delabie"},
     {email = "andreas.delabie@gmail.com"}
@@ -12,7 +12,8 @@ authors = [
 requires-python = ">=3.8"
 dependencies = [
     "gtts",
-    "playsound==1.2.2"
+    "playsound==1.2.2",
+    "pynput"
 ]
 
 [project.scripts]
