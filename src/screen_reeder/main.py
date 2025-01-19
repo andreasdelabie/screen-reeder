@@ -22,7 +22,7 @@ def __init__():
 
 def get_selected_text():
     try:
-        data = tkinter.Tk().clipboard_get()
+        data = tkinter.Tk().clipboard_get().strip().replace('\n', '')
         return data
     except:
         return
@@ -36,7 +36,6 @@ def remove_old_file():
 
 
 def play_selected_text():
-    text_selected = None
     text_previous = None
 
     while True:
